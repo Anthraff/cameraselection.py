@@ -1,5 +1,9 @@
 from selenium import webdriver
 
+# options = webdriver.ChromeOptions()
+# options.binary_location = "/usr/bin/google-chrome"
+# chrome_driver_binary = "/usr/bin/chromedriver"
+# driver = webdriver.Chrome(chrome_driver_binary, chrome_options=options)
 driver = webdriver.Chrome()
 
 first_question = input("Do you want a camera?(y or n): ")
